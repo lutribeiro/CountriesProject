@@ -13,11 +13,6 @@ import Countries from '../../components/Countries'
 
 function Index(){
   
-
-
-  
-
-  
   const [countries, setCountries] = useState([])
   const [isLoading, setIsLoading] = useState()
   const debouncedValue = useDebounce(countries, 1000)
