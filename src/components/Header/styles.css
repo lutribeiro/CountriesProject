@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+.containerHeader{
+  display: flex;
+  text-align: center;
+  width:100%; 
+  height:70px; 
+  background:'#FFFF'; 
+  position:relative;
+  top: 5px;
+  -webkit-box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+}
+h1{ 
+  padding-left: 200px;
+  font-weight: 900;
+  color: #272726;
+  font-size: 25px;
+  font-family: 'Nunito', sans-serif;
+} 
+
+@media only screen and (max-width: 375px) {
+  .containerHeader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:70px; 
+    background:'#FFFF'; 
+    position:relative;
+    top: 5px;
+    left: 0;
+    -webkit-box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 2px 2px rgba(57, 63, 72, 0.3);
+    
+  }
+  .containerHeader h1{
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    padding-left: 15px;
+  }
+
+}

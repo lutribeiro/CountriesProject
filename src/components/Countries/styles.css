@@ -1,0 +1,23 @@
+.countries{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(63, 380px);
+    margin-top: 40px;
+}
+.link{
+    text-decoration: none;
+}
+@media only screen and (max-width: 375px) {
+    .countries{
+        display: block;
+        justify-content: space-around;
+        display: grid;
+        display: grid;
+        grid-template-columns: repeat(1, 375px);
+        grid-template-rows: repeat(250, 380px);
+       
+    }
+}

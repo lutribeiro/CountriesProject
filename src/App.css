@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body{
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+@media only screen and (max-width: 375px) {
+
+  body{
+    width: auto;
+    margin: 0;
+    overflow: auto;
+  }
+}

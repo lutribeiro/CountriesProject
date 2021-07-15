@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.containerDashboard {
+    display: grid;
+    background-color:'#aaaaaa';
+    
+} 
+
+@media only screen and (max-width: 375px) {
+.containerDashboard {
+        display: block;
+        padding-left: 65px;  
+        overflow: hidden;      
+
+       
+}
+}
